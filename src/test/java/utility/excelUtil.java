@@ -62,7 +62,7 @@ public class excelUtil {
 			rowcount= sheet.getLastRowNum();
 			System.out.println("Total rowsare "+ rowcount);
 
-			for (int i =1;i<rowcount;i++){
+			for (int i =1;i<=rowcount;i++){
 
 				
 				String cellvalue = celldatastring(i, 1);

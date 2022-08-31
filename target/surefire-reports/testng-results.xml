@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGTest.TestNGExtentREport" duration-ms="43173" started-at="2022-08-31T16:51:11Z" finished-at="2022-08-31T16:51:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="43173" started-at="2022-08-31T16:51:11Z" finished-at="2022-08-31T16:51:54Z">
+      <class name="TestNGTest.TestNGExtentREport">
+        <test-method status="PASS" signature="testNGsetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testNGsetup" is-config="true" duration-ms="105" started-at="2022-08-31T16:51:11Z" finished-at="2022-08-31T16:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGsetup -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="2840" started-at="2022-08-31T16:51:11Z" finished-at="2022-08-31T16:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase1" duration-ms="961" started-at="2022-08-31T16:51:14Z" data-provider="test1data" finished-at="2022-08-31T16:51:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subhankar Panigrahi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2440" started-at="2022-08-31T16:51:15Z" finished-at="2022-08-31T16:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="2303" started-at="2022-08-31T16:51:17Z" finished-at="2022-08-31T16:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase1" duration-ms="1052" started-at="2022-08-31T16:51:20Z" data-provider="test1data" finished-at="2022-08-31T16:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Text1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2425" started-at="2022-08-31T16:51:21Z" finished-at="2022-08-31T16:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="3659" started-at="2022-08-31T16:51:23Z" finished-at="2022-08-31T16:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase1" duration-ms="1935" started-at="2022-08-31T16:51:27Z" data-provider="test1data" finished-at="2022-08-31T16:51:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Text2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2422" started-at="2022-08-31T16:51:29Z" finished-at="2022-08-31T16:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="2112" started-at="2022-08-31T16:51:31Z" finished-at="2022-08-31T16:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase1" duration-ms="2018" started-at="2022-08-31T16:51:33Z" data-provider="test1data" finished-at="2022-08-31T16:51:35Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2435" started-at="2022-08-31T16:51:35Z" finished-at="2022-08-31T16:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="2197" started-at="2022-08-31T16:51:38Z" finished-at="2022-08-31T16:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase1" duration-ms="1936" started-at="2022-08-31T16:51:40Z" data-provider="test1data" finished-at="2022-08-31T16:51:42Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2452" started-at="2022-08-31T16:51:42Z" finished-at="2022-08-31T16:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="2145" started-at="2022-08-31T16:51:44Z" finished-at="2022-08-31T16:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="2434" started-at="2022-08-31T16:51:46Z" finished-at="2022-08-31T16:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase3" duration-ms="0" started-at="2022-08-31T16:51:46Z" finished-at="2022-08-31T16:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testSetup" is-config="true" duration-ms="3294" started-at="2022-08-31T16:51:49Z" finished-at="2022-08-31T16:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testCase2()[pri:2, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testCase2" duration-ms="1312" started-at="2022-08-31T16:51:52Z" finished-at="2022-08-31T16:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="teaDown" is-config="true" duration-ms="65" started-at="2022-08-31T16:51:53Z" finished-at="2022-08-31T16:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="testNGflush()[pri:0, instance:TestNGTest.TestNGExtentREport@61a485d2]" name="testNGflush" is-config="true" duration-ms="216" started-at="2022-08-31T16:51:54Z" finished-at="2022-08-31T16:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGflush -->
+      </class> <!-- TestNGTest.TestNGExtentREport -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestNGTest.TestNGExtentREport -->
+</testng-results>
