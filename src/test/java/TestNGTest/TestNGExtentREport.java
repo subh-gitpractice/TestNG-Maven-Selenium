@@ -17,6 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import POMPages.glSearchObj;
 import Practice.InvokeBrowser;
+import junit.framework.Assert;
 import utility.excelDataprovide;
 
 
@@ -107,6 +108,7 @@ public class TestNGExtentREport {
 		}	catch(Exception e){
 			System.out.println(e.getMessage());
 			test.fail("Object search on search engile :" + e.getMessage());
+			Assert.assertTrue(false);
 			test.addScreenCaptureFromPath("screenshot.png");
 		}
 

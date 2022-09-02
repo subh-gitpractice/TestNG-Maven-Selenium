@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52993" started-at="2022-09-02T14:11:37Z" finished-at="2022-09-02T14:12:30Z">
+  <suite name="Default suite" duration-ms="44628" started-at="2022-09-02T15:57:58Z" finished-at="2022-09-02T15:58:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52993" started-at="2022-09-02T14:11:37Z" finished-at="2022-09-02T14:12:30Z">
+    <test name="Default test" duration-ms="44628" started-at="2022-09-02T15:57:58Z" finished-at="2022-09-02T15:58:43Z">
       <class name="TestNGTest.TestNGExtentREport">
-        <test-method status="PASS" signature="testNGsetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testNGsetup" is-config="true" duration-ms="86" started-at="2022-09-02T14:11:37Z" finished-at="2022-09-02T14:11:37Z">
+        <test-method status="PASS" signature="testNGsetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testNGsetup" is-config="true" duration-ms="84" started-at="2022-09-02T15:57:58Z" finished-at="2022-09-02T15:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNGsetup -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="7086" started-at="2022-09-02T14:11:38Z" finished-at="2022-09-02T14:11:45Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="3386" started-at="2022-09-02T15:57:59Z" finished-at="2022-09-02T15:58:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1760" started-at="2022-09-02T14:11:45Z" data-provider="test1data" finished-at="2022-09-02T14:11:47Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1891" started-at="2022-09-02T15:58:02Z" data-provider="test1data" finished-at="2022-09-02T15:58:04Z">
           <params>
             <param index="0">
               <value>
@@ -31,15 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2438" started-at="2022-09-02T14:11:47Z" finished-at="2022-09-02T14:11:49Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2444" started-at="2022-09-02T15:58:04Z" finished-at="2022-09-02T15:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2052" started-at="2022-09-02T14:11:49Z" finished-at="2022-09-02T14:11:51Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2088" started-at="2022-09-02T15:58:06Z" finished-at="2022-09-02T15:58:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1587" started-at="2022-09-02T14:11:51Z" data-provider="test1data" finished-at="2022-09-02T14:11:53Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1388" started-at="2022-09-02T15:58:08Z" data-provider="test1data" finished-at="2022-09-02T15:58:10Z">
           <params>
             <param index="0">
               <value>
@@ -55,15 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2413" started-at="2022-09-02T14:11:53Z" finished-at="2022-09-02T14:11:55Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2439" started-at="2022-09-02T15:58:10Z" finished-at="2022-09-02T15:58:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2249" started-at="2022-09-02T14:11:55Z" finished-at="2022-09-02T14:11:57Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2881" started-at="2022-09-02T15:58:12Z" finished-at="2022-09-02T15:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="3539" started-at="2022-09-02T14:11:57Z" data-provider="test1data" finished-at="2022-09-02T14:12:01Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1897" started-at="2022-09-02T15:58:15Z" data-provider="test1data" finished-at="2022-09-02T15:58:17Z">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2440" started-at="2022-09-02T14:12:01Z" finished-at="2022-09-02T14:12:03Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2431" started-at="2022-09-02T15:58:17Z" finished-at="2022-09-02T15:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="3563" started-at="2022-09-02T14:12:03Z" finished-at="2022-09-02T14:12:07Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2075" started-at="2022-09-02T15:58:19Z" finished-at="2022-09-02T15:58:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="5308" started-at="2022-09-02T14:12:07Z" data-provider="test1data" finished-at="2022-09-02T14:12:12Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="1547" started-at="2022-09-02T15:58:21Z" data-provider="test1data" finished-at="2022-09-02T15:58:23Z">
           <params>
             <param index="0">
               <value>
@@ -103,15 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2414" started-at="2022-09-02T14:12:12Z" finished-at="2022-09-02T14:12:15Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2410" started-at="2022-09-02T15:58:23Z" finished-at="2022-09-02T15:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2096" started-at="2022-09-02T14:12:15Z" finished-at="2022-09-02T14:12:17Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="3800" started-at="2022-09-02T15:58:25Z" finished-at="2022-09-02T15:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="958" started-at="2022-09-02T14:12:17Z" data-provider="test1data" finished-at="2022-09-02T14:12:18Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase1" duration-ms="913" started-at="2022-09-02T15:58:29Z" data-provider="test1data" finished-at="2022-09-02T15:58:30Z">
           <params>
             <param index="0">
               <value>
@@ -127,35 +127,70 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2430" started-at="2022-09-02T14:12:18Z" finished-at="2022-09-02T14:12:20Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2450" started-at="2022-09-02T15:58:30Z" finished-at="2022-09-02T15:58:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2068" started-at="2022-09-02T14:12:20Z" finished-at="2022-09-02T14:12:22Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2181" started-at="2022-09-02T15:58:33Z" finished-at="2022-09-02T15:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase3()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase3" duration-ms="1" started-at="2022-09-02T14:12:22Z" finished-at="2022-09-02T14:12:22Z">
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase3" duration-ms="1" started-at="2022-09-02T15:58:35Z" finished-at="2022-09-02T15:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase3 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2415" started-at="2022-09-02T14:12:22Z" finished-at="2022-09-02T14:12:25Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2437" started-at="2022-09-02T15:58:35Z" finished-at="2022-09-02T15:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2184" started-at="2022-09-02T14:12:25Z" finished-at="2022-09-02T14:12:27Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testSetup" is-config="true" duration-ms="2108" started-at="2022-09-02T15:58:37Z" finished-at="2022-09-02T15:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testCase2()[pri:2, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase2" duration-ms="914" started-at="2022-09-02T14:12:27Z" finished-at="2022-09-02T14:12:28Z">
+        <test-method status="FAIL" signature="testCase2()[pri:2, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testCase2" duration-ms="785" started-at="2022-09-02T15:58:39Z" finished-at="2022-09-02T15:58:40Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:55)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertTrue(Assert.java:31)
+at TestNGTest.TestNGExtentREport.testCase2(TestNGExtentREport.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2413" started-at="2022-09-02T14:12:28Z" finished-at="2022-09-02T14:12:30Z">
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="teaDown" is-config="true" duration-ms="2418" started-at="2022-09-02T15:58:40Z" finished-at="2022-09-02T15:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method status="PASS" signature="testNGflush()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testNGflush" is-config="true" duration-ms="169" started-at="2022-09-02T14:12:30Z" finished-at="2022-09-02T14:12:30Z">
+        <test-method status="PASS" signature="testNGflush()[pri:0, instance:TestNGTest.TestNGExtentREport@2d3379b4]" name="testNGflush" is-config="true" duration-ms="182" started-at="2022-09-02T15:58:43Z" finished-at="2022-09-02T15:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNGflush -->
