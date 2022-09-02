@@ -14,7 +14,8 @@ public class glSearchObj {
 		
 	}
 	
-	public void googlesearch(String searchtext){
+	public void googlesearch(String url,String searchtext){
+		driver.get(url);
 		driver.findElement(searchbox).sendKeys(searchtext);
 	}
 	public void googlesearchenter(){

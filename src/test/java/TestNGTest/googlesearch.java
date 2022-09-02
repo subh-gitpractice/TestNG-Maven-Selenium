@@ -22,7 +22,7 @@ public class googlesearch {
 	public static void serchtest(){
 
 		glSearchObj serachObj = new glSearchObj(driver);
-		serachObj.googlesearch("subhankar Panigrahi");
+		serachObj.googlesearch("url","subhankar Panigrahi");
 		serachObj.googlesearchenter();
 
 	}

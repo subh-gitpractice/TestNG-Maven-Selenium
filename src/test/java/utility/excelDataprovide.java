@@ -19,6 +19,7 @@ public class excelDataprovide {
 		int colCount = excel.getColCount();
 
 		Object Data [][] = new Object[rowCount-1][colCount];
+		System.out.println("Row count :"+rowCount+" Coumn Count  :"+colCount );
 
 		try{
 			for (int i =1;i<rowCount;i++){
