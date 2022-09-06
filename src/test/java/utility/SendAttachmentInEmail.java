@@ -16,8 +16,8 @@ public class SendAttachmentInEmail {
 	   public static void SendReport(String args) {
 		// TODO Auto-generated method stub
 		  System.out.println("Test");
-		  final String username = "subhankahghr.panigrahi@gmail.com";
-		    final String password = "zpftqgohghghgfvgxqgioap";
+		  final String username = "xyz@gmail.com";
+		    final String password = "xyzapp pw";
 
 		    Properties props = new Properties();
 		    props.put("mail.smtp.auth", true);
@@ -29,15 +29,15 @@ public class SendAttachmentInEmail {
 		    Session session = Session.getInstance(props,
 		              new javax.mail.Authenticator() {
 		                protected PasswordAuthentication getPasswordAuthentication() {
-		                    return new PasswordAuthentication("subhankar.panigraghgfhgfhi@gmail.com", "zpftqghghgfhgfovgxqgioap");
+		                    return new PasswordAuthentication("xyz@gmail.com", "xygpw");
 		                }
 		              });
 
 
 		    Message msg = new MimeMessage(session);
 		    try {
-		        msg.setFrom(new InternetAddress("subhankar.panihghghgfgrahi@gmail.com"));
-		        msg.setRecipient(Message.RecipientType.TO, new InternetAddress("subhahghghgfnkar.panigrahi@gmail.com"));
+		        msg.setFrom(new InternetAddress("xyzi@gmail.com"));
+		        msg.setRecipient(Message.RecipientType.TO, new InternetAddress("syz@gmail.com"));
 		        msg.setSubject("Automated Testest execution Report");
 
 		        Multipart multipart = new MimeMultipart();
