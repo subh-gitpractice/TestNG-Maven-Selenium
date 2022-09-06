@@ -138,8 +138,11 @@ public class TestNGExtentREport {
 	}
 	@AfterTest
 	public void testNGflush(){
-		System.out.println("Testing completed");
+		
 		extent.flush();		
+		utility.SendAttachmentInEmail.SendReport("subhankar.panigrahi@gmail.com");
+		System.out.println("Testing completed");
+		
 	}
 
 
